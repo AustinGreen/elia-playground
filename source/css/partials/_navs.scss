@@ -43,19 +43,19 @@
   width: 100%;
   left: 0;
   top: 0;
-  padding: 15px;
+  padding: 30px 15px 15px;
   text-align: center;
   margin: auto;
-  font-size: $font-size-smaller;
-  line-height: 1;
 
   p {
     margin: 0;
   }
+}
 
-  @media screen and (max-width: 480px) {
-    display: none;
-  }
+.navbar-heading {
+  font-size: $font-size-regular;
+  letter-spacing: 2px;
+  line-height: 1;
 }
 
 .navbar-default .navbar-nav>li>a {
