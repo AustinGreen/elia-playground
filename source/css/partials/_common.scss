@@ -17,3 +17,22 @@ body {
 a {
   text-decoration: none;
 }
+
+section {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.modal-dialog {
+	position: fixed;
+	top: 25%;
+	left: 28%;
+}
+
+.modal-content {
+	background-color: transparent;
+	border: none;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
