@@ -1,0 +1,76 @@
+/*
+ * Styles for responsive navbar
+ */
+
+.navbar {
+  margin-bottom: 0;
+  width: 100%;
+
+  a {
+    transition: $clean-transition;
+  }
+}
+
+.navbar-default {
+  margin: 0 auto;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  max-width: 1600px;
+}
+
+.navbar-brand {
+  margin-left: 8.8%;
+  font-size: $font-size-regular;
+}
+
+.navbar-brand a {
+	color: lighten($dark-primary-color, 30%);
+  z-index: $zIndex-2;
+  position: relative;
+
+	&:hover {
+		color: $dark-primary-color;
+		text-decoration: none;
+	}
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  font-size: $font-size-smaller;
+  line-height: 1;
+
+  p {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: $font-size-regular;
+	text-align: right;
+  float: right;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 7.5%;
+}
+
+
+.navbar-nav>li>a {
+  @media screen and (max-width: 768px) {
+    line-height: inherit;
+  }
+}

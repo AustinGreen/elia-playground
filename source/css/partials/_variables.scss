@@ -1,0 +1,37 @@
+/* Grid */
+$col-9: (100/9) * 1%;
+$col-6: (100/6) * 1%;
+$col-4: 25%;
+$col-3: (100/3) * 1%;
+$col-2: 50%;
+$col-1: 100%;
+
+/* Vertical Rhythm */
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
+$golden-ratio: 1.61803398875;
+
+/* Font */
+$font-size-small: 0.75rem;
+$font-size-regular: 0.8125rem;
+$font-size-smaller: $font-size-regular / $golden-ratio;
+$font-size-large: $golden-ratio * $font-size-regular;
+$font-size-larger: $golden-ratio * $font-size-large;
+$font-family-text: sans-serif;
+
+/* Color */
+$primary-color: #ececec;
+$dark-primary-color: darken($primary-color, 80%);
+
+/* Misc. */
+$clean-transition: all .3s ease-in-out;
+$box-model: border-box;
+
+/* Z-Index */
+
+$zIndex-1: 100;
+$zIndex-2: 200;
+$zIndex-3: 300;
+$zIndex-4: 400;
