@@ -1,0 +1,29 @@
+.modal-open {
+  overflow: scroll;
+}
+
+section {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.modal-dialog {
+	position: fixed;
+	top: 25%;
+	left: 28%;
+}
+
+.modal-content {
+	background-color: transparent;
+	border: none;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#sec-2 {
+	background: url("https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?q=75&fm=jpg&s=5e57c661d0f772ce269188a6f5325708") no-repeat center center;
+	background-attachment: fixed;
+	padding-bottom: 200px;
+	padding-top: 200px;
+}

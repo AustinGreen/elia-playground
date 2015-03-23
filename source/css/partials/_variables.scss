@@ -19,10 +19,10 @@ $font-size-regular: 0.8125rem;
 $font-size-smaller: $font-size-regular / $golden-ratio;
 $font-size-large: $golden-ratio * $font-size-regular;
 $font-size-larger: $golden-ratio * $font-size-large;
-$font-family-text: sans-serif;
+$font-family-text: Helvetica, sans-serif;
 
 /* Color */
-$primary-color: #fff;
+$primary-color: #f5f3f3;
 $dark-primary-color: darken($primary-color, 80%);
 
 /* Misc. */

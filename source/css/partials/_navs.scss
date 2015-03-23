@@ -75,3 +75,23 @@
     line-height: inherit;
   }
 }
+
+/*
+ * Centered, fixed main nav
+ */
+
+.main-nav {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50%, -50%));
+  z-index: 2000;
+
+  li {
+    @include horizontal-list-item(31px, left);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: $font-size-regular;
+  }
+}

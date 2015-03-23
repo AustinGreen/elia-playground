@@ -1,23 +1,39 @@
-<nav class="navbar navbar-default" role="navigation">
-  <div class="navbar-center navbar-heading">
-    <p>Elijero Elia</p>
-  </div>
-</nav>
-<div class="container-fluid">
-	<section id="sec-1" data-top="opacity: 1" data--400-top="opacity: 0">
-		<div class="row">
-		  <div class="col-sm-4"><img src="http://placehold.it/400x500" class="img-responsive"></div>
-		  <div class="col-sm-4"><img src="http://placehold.it/400x500" class="img-responsive"></div>
-		  <div class="col-sm-4"><img src="http://placehold.it/400x500" class="img-responsive"></div>
-		</div>
-	</section>
-</div>
-
-<!-- Modal -->
+<!-- Video Overlay -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-    	<iframe width="560" height="315" src="https://www.youtube.com/embed/XerE9AGq9T4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/8vJMUZ_7ck8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" style="opacity: 0.7;" allowfullscreen></iframe>
     </div>
+  </div>
+</div>
+
+<!-- Top Header -->
+<nav class="navbar navbar-default">
+  <div class="navbar-center navbar-heading">
+    <% link_to '#' do %>
+      <%= image_tag("img/logo.svg", alt: "Elijero Elia", width:"110") %>
+    <% end %>
+  </div>
+</nav>
+
+<!-- Main navigation -->
+<nav class="main-nav" role="navigation">
+	<li>Visuals</li>
+	<li>Mind</li>
+	<li>Contact</li>
+</nav>
+
+<!-- Parallax Images -->
+<div class="container-fluid">
+	<section id="sec-1">
+		<div class="row">
+		  <div class="col-sm-4"  data-top="transform: translateY(-250px);" data--600-top="transform: translateY(600px);"><img src="img/ye-1.jpg" class="img-responsive"></div>
+		  <div class="col-sm-4"  data-top="transform: translate(-250px, 400px);" data--600-top="transform: translate(-250px, -600px);"><img src="img/ye-2.jpg" class="img-responsive"></div>
+		  <div class="col-sm-4"  data-top="transform: translateY(0px);" data--600-top="transform: translateY(300px);"><img src="img/ye-3.jpg" class="img-responsive"></div>
+		</div>
+	</section>
+</div>
+<div class="jumbotron" id="sec-2" data-bottom-top="background-position: 50% 50%" data-top-bottom="background-position: 50% 5%">
+  <div class="container">
   </div>
 </div>
